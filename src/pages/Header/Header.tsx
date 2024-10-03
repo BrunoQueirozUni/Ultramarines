@@ -5,18 +5,19 @@
 // Imagens
 import ultra from "../../../public/imgs/ultra2.png";
 import omega from "../../../public/imgs/omgas.png";
+import spacemarine from "../../../public/imgs/spacemarine.webp";
+import spacemarine2 from "../../../public/imgs/spacemarine2.png";
+import dreadnought from "../../../public/imgs/dreadnought.png";
 
 export function Header() {
   return (
     <>
       <header className="w-full h-[80%] flex flex-col items-center justify-center absolute bg-ultramarine-color overflow-hidden">
-        <nav className="w-full flex justify-center items-center gap-2 relative">
+        <nav className="w-full flex justify-center items-center gap-2 mt-4 relative">
           <div className="w-1/3 pl-10">
             {/* Placeholder para possíveis conteúdos à esquerda */}
           </div>
-          <div className="w-1/3 flex justify-center select-none">
-            <img src={ultra} alt="" className="w-[135px]" />
-          </div>
+          <div className="w-1/3 flex justify-center select-none"></div>
           <div className="w-1/3 flex justify-end">
             <ul className="flex pr-10 gap-2 font-bold">
               <li>
@@ -29,8 +30,34 @@ export function Header() {
             </ul>
           </div>
         </nav>
-        <div className="w-full h-full flex justify-start items-center relative">
-          <img src={omega} alt="" className="w-[720px] ml-20 opacity-20 absolute top-2 select-none" />
+        <div className="flex w-full h-full ">
+          <div className="w-full h-full flex justify-center items-center relative">
+            <div className="w-full h-full flex justify-center items-center relative"> 
+              <img src={ultra} alt="" className="w-[535px] absolute" />
+              <img
+                src={omega}
+                alt=""
+                className="w-[720px] ml-20 opacity-10 absolute top-2 select-none z-[1]"
+              />
+            </div>
+          </div>
+          <div className="w-full h-full flex justify-start items-center relative">
+            <img
+              src={spacemarine2}
+              alt=""
+              className="w-[500px] ml-64 absolute top-20 select-none opacity-60 z-[2]"
+            />
+            <img
+              src={dreadnought}
+              alt=""
+              className="w-[580px] absolute top-32 right-96 select-none opacity-70 z-[3]"
+            />
+            <img
+              src={spacemarine}
+              alt=""
+              className="w-[320px] absolute top-20 left-36 select-none opacity-90 z-[4]"
+            />
+          </div>
         </div>
       </header>
     </>
