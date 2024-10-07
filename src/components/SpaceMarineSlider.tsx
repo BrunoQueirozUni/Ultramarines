@@ -1,26 +1,28 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
-import 'swiper/css/navigation';
-import 'swiper/css';
+
+import "swiper/css/navigation";
+import "swiper/css";
 
 // Imagens
-import ultramarines from "../../public/imgs/symbols/ultramarine.webp";
-import imperialFist from "../../public/imgs/symbols/imperial_fist.webp";
-import salamanders from "../../public/imgs/symbols/salamanders.png";
-import ravenguard from "../../public/imgs/symbols/ravenguard.png";
-import whitescars from "../../public/imgs/symbols/whitescars.webp";
-import bloodangels from "../../public/imgs/symbols/bloodangels.webp";
-import spacewolves from "../../public/imgs/symbols/spacewolves.png";
-import darkangels from "../../public/imgs/symbols/darkangels.png";
-import irongands from "../../public/imgs/symbols/ironhands.png";
+import ultramarines from "../../public/imgs/Warhammer Space Marines Symbols/ultramarines.png";
+import imperialFist from "../../public/imgs/Warhammer Space Marines Symbols/imperial_fist.png";
+import salamanders from "../../public/imgs/Warhammer Space Marines Symbols/salamanders.png";
+import ravenguard from "../../public/imgs/Warhammer Space Marines Symbols/raven_guards.png";
+import whitescars from "../../public/imgs/Warhammer Space Marines Symbols/white_scars.png";
+import bloodangels from "../../public/imgs/Warhammer Space Marines Symbols/blood_angels.png";
+import spacewolves from "../../public/imgs/Warhammer Space Marines Symbols/space_wolves.png";
+import darkangels from "../../public/imgs/Warhammer Space Marines Symbols/dark_angels.png";
+import irongands from "../../public/imgs/Warhammer Space Marines Symbols/iron_guard.png";
 
 export function SpaceMarineSlider() {
   return (
     <>
-      <Swiper effect={'coverflow'}
+      <Swiper
+        effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -28,13 +30,17 @@ export function SpaceMarineSlider() {
           modifier: 1,
           slideShadows: true,
         }}
-        navigation={true}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
+        className="h-[500px] grid"
       >
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={ultramarines} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Ultramarines</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={ultramarines}
+            alt="Ultramarines"
+            className="w-[140px] h-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Ultramarines</h3>
           <div>
             <p>
               Os Ultramarines são conhecidos por sua disciplina e habilidade
@@ -43,9 +49,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={imperialFist} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Imperial Fist</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={imperialFist}
+            alt="Imperial Fist"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Imperial Fist</h3>
           <div>
             <p>
               Os Imperial Fists são conhecidos por sua habilidade defensiva.
@@ -54,9 +64,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={salamanders} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Salamanders</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={salamanders}
+            alt="Salamanders"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Salamanders</h3>
           <div>
             <p>
               Os Salamanders são conhecidos por sua compaixão e habilidade em
@@ -65,9 +79,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={ravenguard} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Raven Guard</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={ravenguard}
+            alt="Raven Guard"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Raven Guard</h3>
           <div>
             <p>
               Os Raven Guard são conhecidos por sua habilidade em combate
@@ -75,9 +93,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={whitescars} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">White Scars</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={whitescars}
+            alt="White Scars"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">White Scars</h3>
           <div>
             <p>
               Os White Scars são conhecidos por sua habilidade em combate
@@ -86,9 +108,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={bloodangels} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Blood Angels</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={bloodangels}
+            alt="Blood Angels"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Blood Angels</h3>
           <div>
             <p>
               Os Blood Angels são conhecidos por sua fúria em combate. Eles são
@@ -97,9 +123,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={spacewolves} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Space Wolves</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={spacewolves}
+            alt="Space Wolves"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Space Wolves</h3>
           <div>
             <p>
               Os Space Wolves são conhecidos por sua ferocidade em combate. Eles
@@ -108,9 +138,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={darkangels} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Dark Angels</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={darkangels}
+            alt="Dark Angels"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Dark Angels</h3>
           <div>
             <p>
               Os Dark Angels são conhecidos por sua habilidade em combate
@@ -119,9 +153,13 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[300px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3">
-          <img src={irongands} alt="" className="w-[120px] h-[100px]" />
-          <h3 className="text-center font-bold underline">Iron Hands</h3>
+        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+          <img
+            src={irongands}
+            alt="Iron Hands"
+            className="w-[140px] relative top-[-90px] z-20"
+          />
+          <h3 className="font-bold underline mt-[-90px] text-lg">Iron Hands</h3>
           <div>
             <p>
               Os Iron Hands são conhecidos por sua habilidade em combate
