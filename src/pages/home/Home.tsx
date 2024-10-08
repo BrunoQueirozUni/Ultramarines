@@ -6,7 +6,7 @@ export function Home() {
       <main className="pt-[calc(80vh)] overflow-hidden">
         <section className="w-full flex flex-col items-center justify-center mt-48">
           <div className="text-pretty w-1/2">
-            <h1 className="font-bold text-2xl mb-6">
+            <h1 className="font-ancient font-extralight text-3xl mb-6">
               O que é um Space Marine?
             </h1>
             <p>
@@ -18,7 +18,7 @@ export function Home() {
             </p>
           </div>
           <div className="mt-20 flex flex-col items-center">
-            <h2 className="text-center font-bold text-xl underline mb-8">
+            <h2 className="text-center font-ancient text-5xl mb-8">
               Divisões dos Space Marines
             </h2>
             <div className="w-[26%]">

@@ -28,17 +28,17 @@ export function SpaceMarineSlider() {
           stretch: 0,
           depth: 200,
           modifier: 1,
-          slideShadows: true,
+          slideShadows: false,
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="h-[500px] grid text-black"
+        className="h-[500px] grid"
       >
-        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-ultramar before:bg-cover before:z-[-1] before:absolute before:opacity-20 ">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-ultramar before:bg-cover before:z-[-1] before:absolute before:opacity-20 before:rounded-xl">
           <img
             src={ultramarines}
             alt="Ultramarines"
-            className="w-[140px] h-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Ultramarines</h3>
           <div>
@@ -53,7 +53,7 @@ export function SpaceMarineSlider() {
           <img
             src={imperialFist}
             alt="Imperial Fist"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Imperial Fist</h3>
           <div>
@@ -68,7 +68,7 @@ export function SpaceMarineSlider() {
           <img
             src={salamanders}
             alt="Salamanders"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Salamanders</h3>
           <div>
@@ -83,7 +83,7 @@ export function SpaceMarineSlider() {
           <img
             src={ravenguard}
             alt="Raven Guard"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Raven Guard</h3>
           <div>
@@ -97,7 +97,7 @@ export function SpaceMarineSlider() {
           <img
             src={whitescars}
             alt="White Scars"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">White Scars</h3>
           <div>
@@ -112,7 +112,7 @@ export function SpaceMarineSlider() {
           <img
             src={bloodangels}
             alt="Blood Angels"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Blood Angels</h3>
           <div>
@@ -127,7 +127,7 @@ export function SpaceMarineSlider() {
           <img
             src={spacewolves}
             alt="Space Wolves"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Space Wolves</h3>
           <div>
@@ -142,7 +142,7 @@ export function SpaceMarineSlider() {
           <img
             src={darkangels}
             alt="Dark Angels"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Dark Angels</h3>
           <div>
@@ -157,7 +157,7 @@ export function SpaceMarineSlider() {
           <img
             src={irongands}
             alt="Iron Hands"
-            className="w-[140px] relative top-[-90px] z-20"
+            className="w-[140px] relative top-[-90px] z-20 select-none"
           />
           <h3 className="font-bold underline mt-[-90px] text-lg">Iron Hands</h3>
           <div>
