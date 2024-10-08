@@ -14,7 +14,7 @@ body {
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   color: #E1E1E6;
-  background-color: #E0E0E0;
+  background: linear-gradient(#01447B 10%, #002543 50%);
 }
 
 body, input, textarea, button {

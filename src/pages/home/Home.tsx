@@ -4,7 +4,7 @@ export function Home() {
   return (
     <>
       <main className="pt-[calc(80vh)] overflow-hidden">
-        <section className="w-full flex flex-col items-center justify-center pt-20 text-black">
+        <section className="w-full flex flex-col items-center justify-center mt-48">
           <div className="text-pretty w-1/2">
             <h1 className="font-bold text-2xl mb-6">
               O que é um Space Marine?

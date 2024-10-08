@@ -32,9 +32,9 @@ export function SpaceMarineSlider() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="h-[500px] grid"
+        className="h-[500px] grid text-black"
       >
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-ultramar before:bg-cover before:z-[-1] before:absolute before:opacity-20 ">
           <img
             src={ultramarines}
             alt="Ultramarines"
@@ -49,7 +49,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-imperialFist before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={imperialFist}
             alt="Imperial Fist"
@@ -64,7 +64,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-salamanders before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={salamanders}
             alt="Salamanders"
@@ -79,7 +79,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-ravenGuard before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={ravenguard}
             alt="Raven Guard"
@@ -93,7 +93,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-whiteScars before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={whitescars}
             alt="White Scars"
@@ -108,7 +108,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-bloodAngels before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={bloodangels}
             alt="Blood Angels"
@@ -123,7 +123,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-spaceWolves before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={spacewolves}
             alt="Space Wolves"
@@ -138,7 +138,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-darkAngels before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={darkangels}
             alt="Dark Angels"
@@ -153,7 +153,7 @@ export function SpaceMarineSlider() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[350px] h-[420px] bg-white mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10">
+        <SwiperSlide className="w-[350px] h-[420px] bg-ultramarine-color rounded-xl mx-8 p-5 text-center flex flex-col items-center gap-3 self-center top-10 before:content-[''] before:top-0 before:w-full before:h-full before:bg-ironHands before:bg-cover before:z-[-1] before:absolute before:opacity-20">
           <img
             src={irongands}
             alt="Iron Hands"

@@ -4,7 +4,7 @@
 //import { Aperture, Atom, House, List, Newspaper, Sword } from "@phosphor-icons/react";
 // Imagens
 import ultra from "../../../public/imgs/ultra2.png";
-import omega from "../../../public/imgs/omgas.png";
+import omega from "../../../public/imgs/omega.png";
 import spacemarine from "../../../public/imgs/spacemarine.webp";
 import spacemarine2 from "../../../public/imgs/spacemarine2.png";
 import dreadnought from "../../../public/imgs/dreadnought.png";
@@ -12,7 +12,7 @@ import dreadnought from "../../../public/imgs/dreadnought.png";
 export function Header() {
   return (
     <>
-      <header className="w-full h-[80%] flex flex-col items-center justify-center absolute bg-ultramarine-color overflow-hidden">
+      <header className="w-full h-[80%] flex flex-col items-center justify-center absolute">
         <nav className="w-full flex justify-center items-center gap-2 mt-4 relative">
           <div className="w-1/3 pl-10">
             {/* Placeholder para possíveis conteúdos à esquerda */}
